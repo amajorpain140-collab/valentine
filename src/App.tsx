@@ -51,7 +51,7 @@ function App() {
               alt="bears kissing"
               src="https://tenor.com/r747JLdeG9B.gif"
             />
-            <h1 className="text-4xl my-4">ok yay!</h1>
+            <h1 className="text-4xl my-4">ok yayyyyyyy! <3333</h1>
           </>
         ) : (
           <>
