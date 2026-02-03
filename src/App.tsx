@@ -15,7 +15,7 @@ const phrases: string[] = [
   "hey siri, play marvin's room",
   "now you're just testing my creativity with these phrases"
   "YOU'RE BREAKING MY HEART ARE YOU SURE YOU WANNA KEEP DOING THIS?"
-];
+  ];
 
 function App() {
   const [noCount, setNoCount] = useState<number>(0);
