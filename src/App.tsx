@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Footer from "./components/Footer";
 import "./App.css";
 
 const phrases: string[] = [
@@ -14,12 +13,14 @@ const phrases: string[] = [
   "i'll be very very sad",
   "i'll be very very very sad",
   "hey siri, play marvin's room",
+  "now you're just testing my creativity with these phrases"
+  "YOU'RE BREAKING MY HEART ARE YOU SURE YOU WANNA KEEP DOING THIS?"
 ];
 
 function App() {
   const [noCount, setNoCount] = useState<number>(0);
   const [yesPressed, setYesPressed] = useState<boolean>(false);
-  const yesButtonSize: number = noCount * 30 + 16;
+  const yesButtonSize: number = noCount * 40 + 16;
 
   useEffect(() => {
     document.body.classList.add("bg-color");
@@ -48,7 +49,7 @@ function App() {
             <img
               className="gif"
               alt="bears kissing"
-              src="https://media1.tenor.com/m/JHUJYSfYcSsAAAAC/love-mochi.gif"
+              src="https://tenor.com/r747JLdeG9B.gif"
             />
             <h1 className="text-4xl my-4">ok yay!</h1>
           </>
@@ -79,7 +80,6 @@ function App() {
             </div>
           </>
         )}
-        <Footer />
       </div>
     </div>
   );
