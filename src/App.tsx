@@ -49,7 +49,7 @@ function App() {
             <img
               className="gif"
               alt="bears kissing"
-              src="https://tenor.com/r747JLdeG9B.gif"
+              src="./vday.gif"
             />
             <h1 className="text-4xl my-4">ok yayyyyyyy!❤️❤️❤️❤️ </h1>
           </>
